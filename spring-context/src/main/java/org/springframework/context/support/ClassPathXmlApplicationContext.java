@@ -28,20 +28,27 @@ import org.springframework.util.Assert;
  * from the class path, interpreting plain paths as class path resource names
  * that include the package path (e.g. "mypackage/myresource.txt"). Useful for
  * test harnesses as well as for application contexts embedded within JARs.
+ * <p>独立的 XML 应用程序上下文，从类路径中获取上下文定义文件，将普通路径解释为包含包路径的类路径资源名称（例如“mypackage/myresource.txt”）。
+ * 对于测试工具以及 JAR 中嵌入的应用程序上下文很有用。
  *
  * <p>The config location defaults can be overridden via {@link #getConfigLocations},
  * Config locations can either denote concrete files like "/myfiles/context.xml"
  * or Ant-style patterns like "/myfiles/*-context.xml" (see the
- * {@link org.springframework.util.AntPathMatcher} javadoc for pattern details).
+ * {@link org.springframework.util.AntPathMatcher} javadoc for pattern details).//
+ * <p>配置位置默认值可以通过 getConfigLocations 覆盖，配置位置可以表示具体文件，如“/myfiles/context.xml”
+ * 或 Ant 风格模式，如“/myfiles/*-context.xml”（请参阅 org.springframework.util .AntPathMatcher javadoc 了解模式详细信息）。
  *
  * <p>Note: In case of multiple config locations, later bean definitions will
  * override ones defined in earlier loaded files. This can be leveraged to
  * deliberately override certain bean definitions via an extra XML file.
+ * <p>注意：如果有多个配置位置，后面的 bean 定义将覆盖早期加载的文件中定义的 bean。
+ * 可以利用这一点通过额外的 XML 文件故意覆盖某些 bean 定义。
  *
  * <p><b>This is a simple, one-stop shop convenience ApplicationContext.
  * Consider using the {@link GenericApplicationContext} class in combination
  * with an {@link org.springframework.beans.factory.xml.XmlBeanDefinitionReader}
  * for more flexible context setup.</b>
+ * <p>这是一个简单、一站式、方便的 ApplicationContext。 考虑将 GenericApplicationContext 类与 org.springframework.beans.factory.xml.XmlBeanDefinitionReader 结合使用，以获得更灵活的上下文设置。
  *
  * @author Rod Johnson
  * @author Juergen Hoeller

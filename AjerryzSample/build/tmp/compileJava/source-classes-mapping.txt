@@ -1,0 +1,4 @@
+com/ajerryz/demo/Main.java
+ com.ajerryz.demo.Main
+com/ajerryz/demo/beans/Person.java
+ com.ajerryz.demo.beans.Person
