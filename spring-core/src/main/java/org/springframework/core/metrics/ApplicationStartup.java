@@ -21,6 +21,9 @@ package org.springframework.core.metrics;
  * <p>The core container and its infrastructure components can use the {@code ApplicationStartup}
  * to mark steps during the application startup and collect data about the execution context
  * or their processing time.
+ * <hr/>
+ * 使用步骤检测应用程序启动阶段。
+ * 核心容器及其基础架构组件可以使用 ApplicationStartup 标记应用程序启动期间的步骤并收集有关执行上下文或其处理时间的数据。
  *
  * @author Brian Clozel
  * @since 5.3

@@ -1,4 +1,12 @@
-com/ajerryz/demo/ioc/FromXmlDemo.java
- com.ajerryz.demo.ioc.FromXmlDemo
+com/ajerryz/springcontext/scheduling/ThreadPoolTaskExecutorSample.java
+ com.ajerryz.springcontext.scheduling.ThreadPoolTaskExecutorSample
 com/ajerryz/demo/beans/Person.java
  com.ajerryz.demo.beans.Person
+com/ajerryz/springcontext/scheduling/ConcurrentTaskExecutorSample.java
+ com.ajerryz.springcontext.scheduling.ConcurrentTaskExecutorSample
+com/ajerryz/demo/ioc/FromAnnotationDemo.java
+ com.ajerryz.demo.ioc.FromAnnotationDemo
+com/ajerryz/demo/ioc/FromFileSystemDemo.java
+ com.ajerryz.demo.ioc.FromFileSystemDemo
+com/ajerryz/demo/ioc/FromXmlDemo.java
+ com.ajerryz.demo.ioc.FromXmlDemo

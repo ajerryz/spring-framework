@@ -987,7 +987,10 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 	 */
 	protected final void processRequest(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+		/**
+		 * 处理此请求，无论结果如何，都会发布事件。
+		 * 实际的事件处理由抽象 doService 模板方法执行。
+		 */
 		long startTime = System.currentTimeMillis();
 		Throwable failureCause = null;
 
